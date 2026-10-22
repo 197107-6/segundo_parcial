@@ -24,7 +24,16 @@ def menu():
     
 
 def ejercicio1_cine():
-    print("Ejercicio 1 pendiente")
+    boletos = ej1.leerCantidad()
+    subtotal = ej1.calcularSubtotal(boletos)
+    descuento = ej1.calcularDescuento(subtotal, boletos)
+    total = subtotal - descuento
+    ej1.mostrarCompra(boletos, 75.00, subtotal, descuento, total)
 
 def ejercicio2_combustible():
-    print("Ejercicio 2 pendiente")
+    distancia, litros = ej2.leerDatos()
+    rendimiento = ej2.calcularRendimiento(distancia, litros)
+    costo = ej2.calcularCosto(litros)
+    precio_litro = 24.00
+    ej2.mostrarResultados(distancia, litros, precio_litro, rendimiento, costo)
+   
