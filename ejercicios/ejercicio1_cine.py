@@ -44,3 +44,27 @@ aplicará descuento.
 # calcularSubtotal(boletos) -> subtotal : calcular el subtotal de la compra.
 # calcularDescuento(subtotal, boletos) -> descuento : calcular el descuento aplicable.
 # mostrarCompra(boletos, precio_boleto, subtotal, descuento, total) -> None : mostrar la cantidad de boletos, precio por boleto, subtotal, descuento y total a pagar. Mostrar con Tabla mediante tabulate
+
+from tabulate import tabulate
+
+def leerCantidad():
+    boletos = int(input("Ingrese la cantidad de boletos: "))
+    return boletos
+
+def calcularSubtotal(boletos):
+    precio_boleto = 75.00
+    subtotal = boletos * precio_boleto
+    return subtotal
+
+def calcularDescuento(subtotal, boletos):
+    if boletos >= 4:
+        descuento = subtotal * 0.10
+    else:
+        descuento = 0.00
+    return descuento
+
+def mostrarCompra(boletos, precio_boleto, subtotal, descuento, total):
+    from tabulate import tabulate
+    headers = ["Cantidad de boletos", "Precio por boleto", "Subtotal", "Descuento", "Total a pagar"]
+    data = [[boletos, f"${precio_boleto:.2f}", f"${subtotal:.2f}", f"${descuento:.2f}", f"${total:.2f}"]]
+    print(tabulate(data, headers=headers, tablefmt="grid"))
