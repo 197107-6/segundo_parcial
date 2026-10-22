@@ -1,0 +1,32 @@
+(.venv) PS C:\Users\197107-6\Documents\segundo_parcial> python main.py
+Seleccione un ejercicio:
+0. Salir
+1. Ejercicio 1: Cine
+2. Ejercicio 2: Combustible
+Ingrese el número del ejercicio que desea ejecutar: 1
+Ejecutando Ejercicio 1: Cine
+Ingrese la cantidad de boletos: 6
++-----------------------+---------------------+------------+-------------+-----------------+
+|   Cantidad de boletos | Precio por boleto   | Subtotal   | Descuento   | Total a pagar   |
++=======================+=====================+============+=============+=================+
+|                     6 | $75.00              | $450.00    | $45.00      | $405.00         |
++-----------------------+---------------------+------------+-------------+-----------------+
+Seleccione un ejercicio:
+0. Salir
+1. Ejercicio 1: Cine
+2. Ejercicio 2: Combustible
+Ingrese el número del ejercicio que desea ejecutar: 2
+Ejecutando Ejercicio 2: Combustible
+Ingrese la distancia recorrida en kilómetros: 300
+Ingrese la cantidad de litros consumidos: 25
++------------------+--------------------------+------------------------+----------------------+-------------------+
+|   Distancia (km) |   Cantidad de litros (L) |   Precio por litro ($) |   Rendimiento (km/L) |   Costo total ($) |
++==================+==========================+========================+======================+===================+
+|              300 |                       25 |                     24 |                   12 |               600 |
++------------------+--------------------------+------------------------+----------------------+-------------------+
+Seleccione un ejercicio:
+0. Salir
+1. Ejercicio 1: Cine
+2. Ejercicio 2: Combustible
+Ingrese el número del ejercicio que desea ejecutar: 0
+Saliendo del programa...

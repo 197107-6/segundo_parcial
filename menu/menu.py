@@ -16,11 +16,13 @@ def menu():
             print("Saliendo del programa...")
             break
         elif opcion == "1":
-            ej1.ejercicio1_cine()
+            print("Ejecutando Ejercicio 1: Cine")
+            ejercicio1_cine()
         elif opcion == "2":
-            ej2.ejercicio2_combustible()
+            print("Ejecutando Ejercicio 2: Combustible")
+            ejercicio2_combustible()
         else:
-            print("Opción inválida. Por favor, intente nuevamente.")
+            print("Opción inválida. Por favor, intente de nuevo.")
     
 
 def ejercicio1_cine():
