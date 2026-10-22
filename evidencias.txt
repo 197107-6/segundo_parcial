@@ -1,4 +1,7 @@
 (.venv) PS C:\Users\197107-6\Documents\segundo_parcial> python main.py
+
+==== Ejercicio 1: Cine =====
+
 Seleccione un ejercicio:
 0. Salir
 1. Ejercicio 1: Cine
@@ -11,6 +14,9 @@ Ingrese la cantidad de boletos: 6
 +=======================+=====================+============+=============+=================+
 |                     6 | $75.00              | $450.00    | $45.00      | $405.00         |
 +-----------------------+---------------------+------------+-------------+-----------------+
+
+==== Ejercicio 2. Combustible ====
+
 Seleccione un ejercicio:
 0. Salir
 1. Ejercicio 1: Cine
@@ -24,6 +30,9 @@ Ingrese la cantidad de litros consumidos: 25
 +==================+==========================+========================+======================+===================+
 |              300 |                       25 |                     24 |                   12 |               600 |
 +------------------+--------------------------+------------------------+----------------------+-------------------+
+
+==== Salir del programa ====
+
 Seleccione un ejercicio:
 0. Salir
 1. Ejercicio 1: Cine
